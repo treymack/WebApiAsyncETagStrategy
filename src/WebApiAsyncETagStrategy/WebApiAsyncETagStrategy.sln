@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiAsyncETagStrategy", "WebApiAsyncETagStrategy\WebApiAsyncETagStrategy.csproj", "{99EE2144-790D-43B6-9C49-54300F8BDE91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiAsyncETagStrategy.Tests", "WebApiAsyncETagStrategy.Tests\WebApiAsyncETagStrategy.Tests.csproj", "{E3D50055-1E8C-4818-B0C8-9F03F7243996}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F2BB92D9-CACC-4FE6-9697-AF7BB9789AD3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{475D72F6-13B3-403D-B718-F32DF5815293}"
+	ProjectSection(SolutionItems) = preProject
+		build.cmd = build.cmd
+		test.cmd = test.cmd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99EE2144-790D-43B6-9C49-54300F8BDE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99EE2144-790D-43B6-9C49-54300F8BDE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99EE2144-790D-43B6-9C49-54300F8BDE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99EE2144-790D-43B6-9C49-54300F8BDE91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3D50055-1E8C-4818-B0C8-9F03F7243996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D50055-1E8C-4818-B0C8-9F03F7243996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D50055-1E8C-4818-B0C8-9F03F7243996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D50055-1E8C-4818-B0C8-9F03F7243996}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
