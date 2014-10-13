@@ -6,7 +6,7 @@ An async pattern for reading and setting ETag headers in ASP.NET Web API.
 # Goals
 
 - Single file like PetaPoco / Massive
-- ETag caching only, at least at first
+- ETag only, at least at first
 - Way to specify
   - ETag Lookup Function
   - Model Get Function
