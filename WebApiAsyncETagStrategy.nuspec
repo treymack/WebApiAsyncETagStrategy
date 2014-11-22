@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>WebApiAsyncETagStrategy</id>
+        <version>0.1.3</version>
+        <authors>Trey Mack</authors>
+        <licenseUrl>https://raw.githubusercontent.com/treymack/WebApiAsyncETagStrategy/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/treymack/WebApiAsyncETagStrategy</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>An async pattern for reading and setting ETag headers in ASP.NET Web API.</description>
+        <tags>AspNetWebApi WebApi ETag</tags>
+        <dependencies>
+            <dependency id="Microsoft.AspNet.WebApi.Core" version="[5.2.2,6.0)" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="src\WebApiAsyncETagStrategy\ETagHandler.cs" target="content\ETagHandler.cs" />
+    </files>
+</package>
